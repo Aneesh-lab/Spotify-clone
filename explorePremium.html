@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Premium</title>
+    <link rel="icon" href="Spotify.jpg" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #121212;
+        color: white;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        background: #000;
+        position: sticky;
+        top: 0;
+      }
+      header h1 {
+        font-size: 24px;
+        color: #1db954; /* Spotify green */
+      }
+
+      .plans {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 40px;
+      }
+      .plan {
+        margin-top: 90px;
+        background: #181818;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        height: 300px;
+      }
+      .plan h3 {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 40px;
+      }
+      .plan p {
+        font-size: 20px;
+        margin-bottom: 15px;
+        color: #ccc;
+      }
+      .plan button {
+        margin-top: 50px;
+        background: #1db954;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+      .plan button:hover {
+        background: #169c46;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="plans">
+      <div class="plan">
+        <h3>Individual</h3>
+        <p>
+          ₹119/month after offer period<br />No ads, offline, unlimited skips
+        </p>
+        <button>Get Started</button>
+      </div>
+      <div class="plan">
+        <h3>Duo</h3>
+        <p>₹149/month for 2 accounts<br />For couples who live together</p>
+        <button>Get Started</button>
+      </div>
+      <div class="plan">
+        <h3>Family</h3>
+        <p>
+          ₹179/month up to 6 accounts<br />Parental control with explicit filter
+        </p>
+        <button>Get Started</button>
+      </div>
+      <div class="plan">
+        <h3>Student</h3>
+        <p>₹59/month<br />Special discount for students</p>
+        <button>Get Started</button>
+      </div>
+    </section>
+  </body>
+</html>
